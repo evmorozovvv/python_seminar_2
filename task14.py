@@ -2,11 +2,9 @@
 
 
 N = 456843
-n=1
-i=0
+k = 1
 
-while n <= N:
-    n = n * 2
-    i += 1
-    if n < N: print(n)
+while k <= N:
+    k = k * 2
+    if k < N: print(k)
 
